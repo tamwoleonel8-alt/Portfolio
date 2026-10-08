@@ -8,11 +8,17 @@ nav{
 
     align-items:center;
 
-    padding:20px 80px;
+    padding:20px 50px;
 
     position:fixed;
 
-    background:#0f172a;
+    top:0;
+
+    left:0;
+
+    
+
+    background:#16288f;
 
 }
 
@@ -45,7 +51,7 @@ nav a{
 
 nav a:hover{
 
-    color:#3b82f6;
+    color:#0763f8;
 
 }
 
@@ -75,7 +81,10 @@ section p{
 
 #skills{
 
-    background:#111827;
+    background:#cbced6;
+    
+    margin-left: 0;
+
 
 }
 
@@ -93,7 +102,7 @@ section p{
 
 .skill-card{
 
-    background:#1f2937;
+    background:#83aeec;
 
     padding:30px;
 
