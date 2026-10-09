@@ -18,7 +18,7 @@ nav{
 
     
 
-    background:#16288f;
+    background:#0b0b0b;
 
 }
 
@@ -49,9 +49,14 @@ nav a{
 
 }
 
+nav h2{
+    color: white;
+    margin: 0;
+}
+
 nav a:hover{
 
-    color:#0763f8;
+    color:#920eea;
 
 }
 
@@ -59,6 +64,23 @@ section{
 
     padding:100px;
 
+}
+
+body{
+    margin:0;
+    background:
+        
+        url("D:\\portfolio\\fond.jpg") center / cover no-repeat fixed;
+    
+    color:white;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 100px;
 }
 
 section h2{
@@ -81,9 +103,14 @@ section p{
 
 #skills{
 
-    background:#cbced6;
+    background:#0b0b0b;
     
     margin-left: 0;
+
+    margin-top: 50px;
+
+    box-sizing: border-box;
+    
 
 
 }
@@ -102,7 +129,7 @@ section p{
 
 .skill-card{
 
-    background:#83aeec;
+    background:#920eea;
 
     padding:30px;
 
@@ -120,10 +147,26 @@ section p{
 
 }
 
-.skill-card h3{
+.skill-h2{
 
-    color:yellow;
+    color:white;
 
     margin-bottom:15px;
+
+}
+
+.skill-card h3{
+
+    color:white;
+
+    margin-bottom:15px;
+
+}
+
+.skill-card p{
+
+    color:white;
+
+    line-height:25px;
 
 }
